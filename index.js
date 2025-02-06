@@ -7,7 +7,7 @@ setInterval(() => {
   addLi();
 }, 500);
 
-// myButton.addEventListener("click", clearUl);
+myButton.addEventListener("click", clearUl);
 
 function addLi() {
   const li = document.createElement("li");
