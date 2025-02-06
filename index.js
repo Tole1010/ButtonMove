@@ -5,14 +5,14 @@ const ul = document.querySelector("ul");
 setInterval(() => {
   buttonRandomizer();
   addLi();
-}, 400);
+}, 500);
 
 // myButton.addEventListener("click", clearUl);
 
 function addLi() {
   const li = document.createElement("li");
   randomStr = randomStrFromArr(strArr);
-  li.innerHTML = randomStr;
+  li.innerHTML = `<b>LOG :</b>  ${randomStr}`;
   ul.appendChild(li);
 }
 

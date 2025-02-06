@@ -26,11 +26,13 @@ ul {
 }
 
 ul li {
-  height: 1.6rem;
+  min-height: 1.6rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 #myButton {
   position: absolute; /* Allows absolute positioning */
   transition: opacity 0.2s ease; /* Smooth transition for disappearance */
+  background-color: black;
+  color: white;
 }
