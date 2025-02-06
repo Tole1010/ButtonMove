@@ -1,0 +1,36 @@
+body {
+  background: rgba(0, 0, 0, 0.2);
+  height: 100vh; /* Make sure body covers the whole viewport */
+  margin: 0; /* Remove default body margins */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  box-sizing: border-box;
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
+    Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
+  position: relative;
+  border-radius: 5px;
+
+  overflow: auto;
+}
+
+ul {
+  margin: 15px;
+  list-style: none;
+  padding: 10px;
+}
+
+ul li {
+  height: 1.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#myButton {
+  position: absolute; /* Allows absolute positioning */
+  transition: opacity 0.2s ease; /* Smooth transition for disappearance */
+}
