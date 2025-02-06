@@ -35,4 +35,5 @@ ul li {
   transition: opacity 0.2s ease; /* Smooth transition for disappearance */
   background-color: black;
   color: white;
+  z-index: 999;
 }
