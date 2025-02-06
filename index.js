@@ -5,7 +5,7 @@ const ul = document.querySelector("ul");
 setInterval(() => {
   buttonRandomizer();
   addLi();
-}, 100);
+}, 500);
 
 myButton.addEventListener("click", clearUl);
 
