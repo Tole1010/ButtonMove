@@ -1,4 +1,4 @@
-// const myButton = document.getElementById("myButton");
+const myButton = document.getElementById("myButton");
 const container = document.querySelector(".container");
 const ul = document.querySelector("ul");
 
